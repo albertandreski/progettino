@@ -4,6 +4,7 @@ from flask import Flask, render_template
 
 #inizializza l'app Flask
 app = Flask(__name__)
+lista_spesa= []
 
 #rotta principale
 @app.route('/')
