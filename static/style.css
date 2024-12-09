@@ -1,0 +1,35 @@
+#form-aggiungere {
+    max-width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #d31d1d;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#zona-elementi {
+    max-width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+li {
+    font-size: 16px;
+    color: #167c83;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+}
+
+li:before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #81dd09;
+    font-size: 18px;
+}
